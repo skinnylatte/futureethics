@@ -1,0 +1,78 @@
+/* styles.css */
+
+body {
+    font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+  background-color: yellowgreen;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 125px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.site-title {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.nav ul {
+    margin: 10;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    background-color: yellowgreen;
+    font-family: system-ui, sans-serif; 
+    font-weight: 800;
+}
+
+.nav ul li {
+    margin-left: 45px;
+    padding: 10px;
+}
+
+.navbar ul li a {
+}
+
+.main {
+    margin-left: 450px;
+    margin-top: -250px;
+    width: 50%;
+}
+
+.main li {
+    padding: 5px;
+}
+
+.tally {
+    margin-top: 50px;
+    margin-left: -25px;
+}
