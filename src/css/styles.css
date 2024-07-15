@@ -57,7 +57,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 1em 2em;
 }
 
 .header a {
@@ -65,9 +65,9 @@ img {
 }
 
 .logo {
-    width: 125px;
-    margin-left: 20px;
-    padding: 20px;
+    width: 20%;
+    margin-left: 2em;
+    padding: 1em;
 }
 
 .logo img {
