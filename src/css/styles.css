@@ -1,19 +1,29 @@
 /* styles.css */
 
-@media all and (min-width: 400px) {
-    .wrapper { display: flex; flex-direction: column }
+/* flexbox container */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+/* media queries */
+
+@media all and (max-width: 799px) {
+    .wrapper { flex-direction: column }
     .nav { order: 1 }
-    .logo { order: 2}
-    .subtitle { order: 3 }
-    .header { display: flex; justify-content: space-between; align-items:left; }
-    .logo img { max-width: 70%; min-width: 150px }
-    .main { order: 4;  padding: 1em; width: 100%}
+    .header { display: flex; justify-content: space-between; align-items:left; order: 2}
+    .logo img { min-width: 150px }
+    .main img { width: 100% }
+    .main { order: 3; padding-top: 5.5rem; min-width: 50%; margin: 10px}
 }
 
 
+/* larger screens */
+
 @media all and (min-width: 800px) {
-    .wrapper { display: flex; }
-    .header { display: flex; justify-content: space-between; align-items: center; padding: 1em 2em; flex-direction: column }
+    .wrapper { flex-direction: column }
+    .header { display: flex; justify-content: space-between; align-items: center; padding: 1em 2em; flex-wrap: wrap}
 }
 
 
