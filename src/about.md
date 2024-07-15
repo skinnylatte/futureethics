@@ -17,7 +17,7 @@ Let us help you plan for the future. Keep building meaningful software and busin
 
 ### Adrianna Tan
 
-Managing Director & Founder
+*Managing Director & Founder*
 
 <img src="/img/profile.jpg" width="250px" alt="a photo of adrianna tan the founder of future ethics llc"> 
 
