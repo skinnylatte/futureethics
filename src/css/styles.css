@@ -58,6 +58,7 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 1em 2em;
+    flex-wrap: wrap;
 }
 
 .header a {
@@ -76,8 +77,8 @@ img {
 }
 
 .site-title {
-    padding: 20px;
-    margin-left: 20px;
+    padding: 2em;
+    margin-left: 3%;
 }
 
 .nav ul {
@@ -88,14 +89,13 @@ img {
     background-color: yellowgreen;
     font-family: system-ui, sans-serif; 
     font-weight: 800;
+    flex-wrap: wrap;
+    justify-content: left;
 }
 
 .nav ul li {
     margin-left: 45px;
     padding: 10px;
-}
-
-.navbar ul li a {
 }
 
 .main {
