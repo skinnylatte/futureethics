@@ -2,7 +2,7 @@
 layout: base
 title: "Future Ethics"
 ---
-        <img src="/img/craft.jpg" height="450px">
+<img class="hero" src="/img/craft.jpg" height="450px" alt="an image of woodworking, denoting craftmanship">
 
 
 # The world may be changing

@@ -5,6 +5,8 @@ layout: base
 
 # What we do
 
+We publish [PublicSectorAI](https://publicsectorai.tech/), a newsletter on the use of AI in the public sector.
+
 ### Employee Training 
 
 We work with product and software leaders and team members to understand best practices.

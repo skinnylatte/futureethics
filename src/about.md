@@ -5,17 +5,19 @@ layout: base
 
 # About us
 
-We are product managers, researchers academics and executives who want to help you make sense of AI in today's world.
+We are product managers, researchers, academics and executives who can help you make sense of software and product development in today's world.
 
-We have experience in startups, academia, government and large organizations.
+We have experience in startups, academia, government and large organizations, and how AI/ML is used across these organizations.
 
-We got started in 2024, when we saw that there was interest in the use of artificial intelligence to build software and services. However, we were alarmed by the use of AI for the sake of it.
+We got started in 2024, when we saw that there was interest in the use of artificial intelligence to build software and services. However, we were alarmed by the use of AI for the sake of it. 
 
 We believe that by abiding by our values, it is possible to consider the use of artificial intelligence in some software and business models. We also believe that the best way to use AI is the best way to use anything: responsibly.
 
+Let us help you plan for the future. Keep building meaningful software and business models, that will sometimes have some AI in it.
+
 ### Adrianna Tan
 
-Managing Director & Founder
+*Managing Director & Founder*
 
 <img src="/img/profile.jpg" width="250px" alt="a photo of adrianna tan the founder of future ethics llc"> 
 

@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <header>        
+<div class="wrapper">
         {% include "partials/_nav.njk" %}
+    <header>        
 
         {% include "partials/_logo.njk" %}
 
@@ -18,6 +19,6 @@
         {{ content | safe }}
     </main>
     <footer>
-    </footer>
+    </footer></div>
 </body>
 </html>
