@@ -1,12 +1,3 @@
-/* styles.css */
-
-/* flexbox container */
-
-.wrapper {
-    display: flex;
-    flex-direction: column;
-}
-
 /* media queries */
 
 @media all and (max-width: 799px) {
@@ -30,38 +21,30 @@
 body {
     font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
     font-weight: normal;
-    margin: 0;
-    background-color: lightgoldenrodyellow;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 80ch;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 24px;
 }
 
 a {
   text-decoration: none !important;
   color: black;
-  background-color: yellowgreen;
-  padding: 10px;
-  border-radius: 10px;
 }
 
 img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-}
-
-
-.header a {
-    text-decoration: none;
-}
-
-.logo {
-    width: 10%;
-    margin-left: 2em;
-    padding: 1em;
-}
-
-.logo img {
-    max-width: 100%;
-    height: auto;
 }
 
 .site-title {
@@ -72,34 +55,30 @@ img {
 .subtitle {
     margin-top: -1rem;
 }
+
 .nav ul {
-    margin: 10;
-    padding: 0;
+    margin: 0 0 16px;
+    padding: 24px 0;
     display: flex;
     list-style: none;
-    background-color: yellowgreen;
-    font-family: system-ui, sans-serif; 
-    font-weight: 800;
+    border-bottom: 1px solid rgb(237, 237, 237);
     flex-wrap: wrap;
     justify-content: left;
+    align-items: center;
 }
 
-.nav ul li {
-    margin-left: 45px;
-    padding: 10px;
+.nav ul li:nth-child(n+2){
+    margin-left: 24px;
 }
 
-.main {
-    margin-left: 35%;
-    margin-top: -20%;
-    width: 50%;
-}
-
-.main li {
-    padding: 5px;
+.nav ul li.wordmark a{
+    font-size: 24px;
+    font-weight: 800;
+    color: color(srgb 0.9516 0.2689 0.338);
 }
 
 .tally {
-    margin-top: 50px;
-    margin-left: -25px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 8px;
+    padding: 32px 0 16px;
 }

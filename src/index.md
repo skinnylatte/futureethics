@@ -2,9 +2,11 @@
 layout: base
 ---
 
+# Build Great Products. With or Without AI.
+
 <img class="hero" src="/img/craft.jpg" height="450px" alt="an image of woodworking, denoting craftmanship">
 
-# The world may be changing
+## The world may be changing
 
 But great products are always built the same way: with craftsmanship and care.
 
