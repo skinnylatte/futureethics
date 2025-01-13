@@ -1,5 +1,4 @@
 ---
-title: "Future Ethics"
 layout: base
 ---
 
