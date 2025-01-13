@@ -1,8 +1,7 @@
 ---
-layout: base
 title: Our Values
+layout: base
 ---
-
 
 # What we believe
 
