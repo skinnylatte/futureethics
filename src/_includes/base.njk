@@ -1,24 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title + " - " if title | length > 0 else "" }} FutureEthics</title>
-    <meta name="description" content="{{ description | safe }}">
-    <link rel="stylesheet" href="/css/styles.css">
-</head>
-<body>
-<div class="wrapper">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ title + " - " if title | length > 0 else "" }} FutureEthics</title>
+        <meta name="description" content="{{ description | safe }}">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
         {% include "partials/_nav.njk" %}
-    <header>        
-
-        {% include "partials/_logo.njk" %}
-
-    </header>
-    <main class="main">
-        {{ content | safe }}
-    </main>
-    <footer>
-    </footer></div>
-</body>
+        <main class="main">{{ content | safe }}</main>
+        <footer />
+    </body>
 </html>
