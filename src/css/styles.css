@@ -44,7 +44,10 @@ main {
 
 .quote {
     border-left: 4px solid rgb(255, 229, 235);
-    padding: 16px 48px;
+    padding: 4px 48px 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
 }
 
 .quote blockquote {
@@ -52,6 +55,7 @@ main {
 }
 
 .quote blockquote p {
+    margin: 0
     font-style: italic;
     font-size: 24px;
 }
@@ -99,6 +103,11 @@ footer {
 
 
 @media all and (max-width: 800px) {
+
+    .quote {
+        padding: 0 24px 24px;
+    }
+
     .nav ul {
         padding: 24px;
         row-gap: 8px;
@@ -109,7 +118,7 @@ footer {
     }
 
     main {
-        padding: 0 24px;
+        padding: 0 24px 24px;
     }
 
     footer {
