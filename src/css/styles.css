@@ -55,7 +55,7 @@ main {
 }
 
 .nav ul li.wordmark a{
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 800;
     color: color(srgb 0.9516 0.2689 0.338);
 }
@@ -79,6 +79,11 @@ footer {
 @media all and (max-width: 800px) {
     .nav ul {
         padding: 24px;
+        row-gap: 8px;
+    }
+
+    .nav ul li.wordmark a{
+        font-size: 24px;
     }
 
     main {
