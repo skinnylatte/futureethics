@@ -1,21 +1,22 @@
 body {
-    font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
-    font-weight: normal;
-    font-size: 18px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    max-width: 80ch;
-    height: 100vh;
+  font-family: Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans",
+    source-sans-pro, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 80ch;
+  height: 100vh;
 }
 
 h1 {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 h2 {
-    font-weight: normal;
-    font-size: 24px;
+  font-weight: normal;
+  font-size: 24px;
 }
 
 a {
@@ -24,133 +25,167 @@ a {
 }
 
 img.profile-photo {
-    padding: 4px;
-    max-width: 100%;
-    border: 2px solid rgb(255, 229, 235);
+  padding: 4px;
+  max-width: 100%;
+  border: 2px solid rgb(255, 229, 235);
 }
 
-ul, ol {
-    padding-left: 1.5em;
+ul,
+ol {
+  padding-left: 1.5em;
 }
 
-ul, ol > li {
-    padding-bottom: 12px;
+ul,
+ol > li {
+  padding-bottom: 12px;
 }
 
 main {
-    padding: 0 0 24px;
-    flex-grow: 2;
+  padding: 0 0 24px;
+  flex-grow: 2;
 }
 
 .profile {
-    border-top: 1px solid;
+  border-top: 1px solid;
 }
 
 .profile .name {
-    font-size: 24px;
-    margin-bottom: 0;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.form-paypal {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: start;
+  gap: 0.5rem;
+  padding: 1em;
+  border: 2px solid;
+  background-color: #fafafa;
+  max-width: 300px;
+}
+
+.btn-paypal {
+  text-align: center;
+  border: none;
+  border-radius: 0.25rem;
+  min-width: 11.625rem;
+  padding: 0 2rem;
+  height: 2.625rem;
+  font-weight: bold;
+  background-color: #ffd140;
+  color: #000000;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  cursor: pointer;
 }
 
 .quote {
-    border-left: 4px solid rgb(255, 229, 235);
-    padding: 4px 48px 24px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 16px;
+  border-left: 4px solid rgb(255, 229, 235);
+  padding: 4px 48px 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
 }
 
 .quote blockquote {
-    margin: 0;
+  margin: 0;
 }
 
 .quote blockquote p {
-    margin: 0
-    font-style: italic;
-    font-size: 24px;
+  margin: 0;
+  font-style: italic;
+  font-size: 24px;
 }
 
 .quote .cite p {
-    margin: 0;
+  margin: 0;
 }
 
 .quote .cite .author {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .nav {
-    margin: 0;
-    padding: 2em 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-bottom: 1px solid rgb(237, 237, 237);
+  margin: 0;
+  padding: 2em 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(237, 237, 237);
 }
 
 .nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    align-items: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  align-items: center;
 }
 
 .nav ul li a.wordmark {
-    display: flex;
-    align-items: center;
-    column-gap: 8px;
-    font-size: 32px;
-    font-weight: 800;
-    color: color(srgb 0.9516 0.2689 0.338);
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  font-size: 32px;
+  font-weight: 800;
+  color: color(srgb 0.9516 0.2689 0.338);
 }
 
 .nav ul li img {
-    width: 42px;
+  width: 42px;
 }
 
 .tally {
-    border: 1px solid rgb(215, 215, 215);
-    background-color: rgb(237, 237, 237);
-    border-radius: 8px;
-    padding: 32px 0 16px;
-    margin-bottom: 24px;
+  border: 1px solid rgb(215, 215, 215);
+  background-color: rgb(237, 237, 237);
+  border-radius: 8px;
+  padding: 32px 0 16px;
+  margin-bottom: 24px;
 }
 
 footer {
-    border-top: 1px solid rgb(237, 237, 237);
-    font-size: 14px;
-    padding: 2em 0;
-    color: #666;
+  border-top: 1px solid rgb(237, 237, 237);
+  font-size: 14px;
+  padding: 2em 0;
+  color: #666;
 }
 
-
 @media all and (max-width: 800px) {
+  .form-paypal {
+    max-width: 100%;
+  }
 
-    .quote {
-        padding: 0 24px 24px;
-    }
+  .quote {
+    padding: 0 24px 24px;
+  }
 
-    .nav {
-        flex-direction: column;
-        justify-content: left;
-        row-gap: 16px;
-        padding: 24px;
-    }
+  .nav {
+    flex-direction: column;
+    justify-content: left;
+    row-gap: 16px;
+    padding: 24px;
+  }
 
-    .nav ul li.wordmark a{
-        font-size: 32px;
-    }
+  .nav ul li.wordmark a {
+    font-size: 32px;
+  }
 
-    main {
-        padding: 0 24px 24px;
-    }
+  main {
+    padding: 0 24px 24px;
+  }
 
-    footer {
-        padding: 24px;
-    }
+  footer {
+    padding: 24px;
+  }
 
-    ul, ol > li {
-        padding-bottom: 1.5em;
-    }
+  ul,
+  ol > li {
+    padding-bottom: 1.5em;
+  }
 }
