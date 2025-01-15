@@ -10,6 +10,10 @@ body {
   height: 100vh;
 }
 
+a {
+  color: black;
+}
+
 h1 {
   font-size: 32px;
 }
@@ -19,9 +23,8 @@ h2 {
   font-size: 24px;
 }
 
-a {
-  text-decoration: none !important;
-  color: black;
+h2 a {
+  text-decoration: none;
 }
 
 img.profile-photo {
@@ -45,6 +48,12 @@ main {
   flex-grow: 2;
 }
 
+.widget-calendly {
+  border: 1px solid;
+  min-width: 320px;
+  height: 700px;
+}
+
 .profile {
   border-top: 1px solid;
 }
@@ -62,8 +71,9 @@ main {
   align-content: start;
   gap: 0.5rem;
   padding: 1em;
-  border: 2px solid;
-  background-color: #fafafa;
+  border: 2px solid rgb(215, 215, 215);
+  background-color: rgb(250, 250, 250);
+  border-radius: 8px;
   max-width: 300px;
 }
 
@@ -118,6 +128,10 @@ main {
   border-bottom: 1px solid rgb(237, 237, 237);
 }
 
+.nav a {
+  text-decoration: none;
+}
+
 .nav ul {
   margin: 0;
   padding: 0;
@@ -142,8 +156,8 @@ main {
 }
 
 .tally {
-  border: 1px solid rgb(215, 215, 215);
-  background-color: rgb(237, 237, 237);
+  border: 2px solid rgb(215, 215, 215);
+  background-color: rgb(250, 250, 250);
   border-radius: 8px;
   padding: 32px 0 16px;
   margin-bottom: 24px;
