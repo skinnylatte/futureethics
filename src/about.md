@@ -15,11 +15,13 @@ We believe that by abiding by our values, it is possible to consider the use of 
 
 Let us help you plan for the future. Keep building meaningful software and business models, that will sometimes have some AI in it.
 
-## Adrianna Tan
-
-_Managing Director & Founder_
+## Team
 
 <img src="/img/profile.jpg" width="250px" alt="a photo of adrianna tan the founder of future ethics llc">
+
+### Adrianna Tan
+
+#### Managing Director
 
 Adrianna Tan is an experienced software professional with more than 15 years' experience building software and products for the web.
 
@@ -30,3 +32,7 @@ Previously, she was Senior Product Manager at PlanetScale, and a startup founder
 She has won many awards and recognition, such as the Stevie Awards, Top Female Entrepreneur, Top Women in FinTech, Unilever Asia-Pacific Startup of the Year, Ascendas-Singbridge Her Startup 2016.
 
 She is a sought-after speaker on the topics of artificial intelligence and product management, having participated in roundtables and events organized by IEEE, NYU and others. She was also a mentor for the GSM Association's startup incubator programs, assisting founders and startups in emerging markets in finding product-market fit.
+
+### Betsy Valu Rohney
+
+#### Research Lead
