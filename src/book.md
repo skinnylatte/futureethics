@@ -16,5 +16,11 @@ Product for the People reclaims the power of technology to improve the most fund
     <p class="author">Matt LeMay</p>
     <p class="description">Author of "Product Management in Practice" and "Impact-First Product Teams"</p>
   </div>
-  
 </div>
+
+<style>.pp-UAWRF764CQFZN{text-align:center;border:none;border-radius:0.25rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
+<form action="https://www.paypal.com/ncp/payment/UAWRF764CQFZN" method="post" target="_top" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
+  <input class="pp-UAWRF764CQFZN" type="submit" value="Pre-order" />
+  <img src=https://www.paypalobjects.com/images/Debit_Credit_APM.svg alt="cards" />
+  <section> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
+</form>
