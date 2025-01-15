@@ -96,20 +96,17 @@ main {
     align-items: center;
 }
 
-.nav ul li.wordmark {
+.nav ul li a.wordmark {
     display: flex;
     align-items: center;
     column-gap: 8px;
-}
-
-.nav ul li.wordmark img {
-    width: 42px;
-}
-
-.nav ul li.wordmark a{
     font-size: 32px;
     font-weight: 800;
     color: color(srgb 0.9516 0.2689 0.338);
+}
+
+.nav ul li img {
+    width: 42px;
 }
 
 .tally {
