@@ -23,7 +23,7 @@ a {
   color: black;
 }
 
-img {
+img.profile-photo {
     padding: 4px;
     max-width: 100%;
     border: 2px solid rgb(255, 229, 235);
@@ -96,10 +96,17 @@ main {
     align-items: center;
 }
 
-.nav ul li.wordmark a{
+.nav ul li a.wordmark {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
     font-size: 32px;
     font-weight: 800;
     color: color(srgb 0.9516 0.2689 0.338);
+}
+
+.nav ul li img {
+    width: 42px;
 }
 
 .tally {
