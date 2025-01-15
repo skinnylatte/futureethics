@@ -23,7 +23,7 @@ a {
   color: black;
 }
 
-img {
+img.profile-photo {
     padding: 4px;
     max-width: 100%;
     border: 2px solid rgb(255, 229, 235);
@@ -94,6 +94,16 @@ main {
     flex-wrap: wrap;
     column-gap: 24px;
     align-items: center;
+}
+
+.nav ul li.wordmark {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.nav ul li.wordmark img {
+    width: 42px;
 }
 
 .nav ul li.wordmark a{

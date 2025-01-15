@@ -17,7 +17,7 @@ Let us help you plan for the future. Keep building meaningful software and busin
 
 ## Team
 
-<img src="/img/profile.jpg" width="250px" alt="a photo of adrianna tan the founder of future ethics llc">
+<img class="profile-photo" src="/img/profile.jpg" width="300px" alt="a photo of adrianna tan the founder of future ethics llc">
 
 ### Adrianna Tan
 
