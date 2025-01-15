@@ -19,7 +19,7 @@ Product for the People reclaims the power of technology to improve the most fund
 </div>
 
 <form class="form-paypal" action="https://www.paypal.com/ncp/payment/UAWRF764CQFZN" method="post" target="_top">
-  <input class="btn-paypal" type="submit" value="Pre-order Book" />
+  <input class="btn-paypal" type="submit" value="Pre-order Now!" />
   <!-- <img src=https://www.paypalobjects.com/images/Debit_Credit_APM.svg alt="cards" /> -->
   <section> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
 </form>

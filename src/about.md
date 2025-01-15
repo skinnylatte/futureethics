@@ -1,9 +1,9 @@
 ---
-title: About
+title: About Us
 layout: base
 ---
 
-# About us
+# About Us
 
 We are product managers, researchers, academics and executives who can help you make sense of software and product development in today's world.
 
