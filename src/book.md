@@ -3,7 +3,7 @@ title: "Book"
 layout: base
 ---
 
-# **Product for the people**
+# **Product for the People**
 
 Product for the People reclaims the power of technology to improve the most fundamental aspects of our lives. This is the book that product people who want to make the world a better place have been waiting for.
 
@@ -16,5 +16,10 @@ Product for the People reclaims the power of technology to improve the most fund
     <p class="author">Matt LeMay</p>
     <p class="description">Author of "Product Management in Practice" and "Impact-First Product Teams"</p>
   </div>
-  
 </div>
+
+<form class="form-paypal" action="https://www.paypal.com/ncp/payment/UAWRF764CQFZN" method="post" target="_top">
+  <input class="btn-paypal" type="submit" value="Pre-order Book" />
+  <!-- <img src=https://www.paypalobjects.com/images/Debit_Credit_APM.svg alt="cards" /> -->
+  <section> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
+</form>
